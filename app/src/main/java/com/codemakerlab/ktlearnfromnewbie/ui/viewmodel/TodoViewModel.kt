@@ -1,10 +1,10 @@
-package com.codemakerlab.ktlearnfromnewbie
+package com.codemakerlab.ktlearnfromnewbie.ui.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.codemakerlab.ktlearnfromnewbie.model.Todo
-import com.codemakerlab.ktlearnfromnewbie.service.TodoRepository
+import com.codemakerlab.ktlearnfromnewbie.data.model.Todo
+import com.codemakerlab.ktlearnfromnewbie.data.repository.TodoRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

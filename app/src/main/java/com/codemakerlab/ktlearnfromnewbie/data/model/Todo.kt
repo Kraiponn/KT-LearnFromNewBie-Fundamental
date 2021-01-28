@@ -1,4 +1,4 @@
-package com.codemakerlab.ktlearnfromnewbie.model
+package com.codemakerlab.ktlearnfromnewbie.data.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

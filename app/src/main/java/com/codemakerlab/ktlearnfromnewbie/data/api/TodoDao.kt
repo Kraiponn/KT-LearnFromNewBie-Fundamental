@@ -1,8 +1,8 @@
-package com.codemakerlab.ktlearnfromnewbie.dao
+package com.codemakerlab.ktlearnfromnewbie.data.api
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.codemakerlab.ktlearnfromnewbie.model.Todo
+import com.codemakerlab.ktlearnfromnewbie.data.model.Todo
 
 @Dao
 interface TodoDao {

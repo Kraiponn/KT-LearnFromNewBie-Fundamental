@@ -1,9 +1,8 @@
-package com.codemakerlab.ktlearnfromnewbie.viewmodel
+package com.codemakerlab.ktlearnfromnewbie.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.codemakerlab.ktlearnfromnewbie.TodoViewModel
-import com.codemakerlab.ktlearnfromnewbie.service.TodoRepository
+import com.codemakerlab.ktlearnfromnewbie.data.repository.TodoRepository
 import java.lang.IllegalArgumentException
 
 class TodoViewModelFactory(

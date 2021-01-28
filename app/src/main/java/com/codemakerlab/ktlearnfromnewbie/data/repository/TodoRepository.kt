@@ -1,8 +1,8 @@
-package com.codemakerlab.ktlearnfromnewbie.service
+package com.codemakerlab.ktlearnfromnewbie.data.repository
 
 import androidx.lifecycle.LiveData
-import com.codemakerlab.ktlearnfromnewbie.dao.TodoDao
-import com.codemakerlab.ktlearnfromnewbie.model.Todo
+import com.codemakerlab.ktlearnfromnewbie.data.api.TodoDao
+import com.codemakerlab.ktlearnfromnewbie.data.model.Todo
 
 class TodoRepository(private val dao: TodoDao) {
     val todos: LiveData<List<Todo>> = dao.getTodos()

@@ -1,4 +1,4 @@
-package com.codemakerlab.ktlearnfromnewbie.adapter
+package com.codemakerlab.ktlearnfromnewbie.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.codemakerlab.ktlearnfromnewbie.R
 import com.codemakerlab.ktlearnfromnewbie.databinding.TodoRowItemBinding
-import com.codemakerlab.ktlearnfromnewbie.model.Todo
+import com.codemakerlab.ktlearnfromnewbie.data.model.Todo
 
 class TodoRecyclerAdapter : RecyclerView.Adapter<TodoRecyclerAdapter.TodoViewHolder>() {
     private lateinit var mViewBinding: TodoRowItemBinding
